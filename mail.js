@@ -53,3 +53,12 @@ console.log(player);
 // Generate a random number from 1 to 6 for the CPU
 let computer = Math.floor(Math.random() * 6) + 1;
 
+// Determine the winner based on the highest score
+let winner;
+if (player > computer) {
+    winner = player;
+} else if (player < computer) {
+    winner = computer;
+} else {
+    winner = "It's a tie!";
+}
