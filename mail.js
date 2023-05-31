@@ -46,3 +46,10 @@ login.addEventListener('click', function () {
 
 // Dice Exercise
 
+// Generate a random number from 1 to 6 for the player
+let player = Math.floor(Math.random() * 6) + 1;
+console.log(player);
+
+// Generate a random number from 1 to 6 for the CPU
+let computer = Math.floor(Math.random() * 6) + 1;
+
