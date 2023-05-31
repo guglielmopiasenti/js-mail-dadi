@@ -41,3 +41,10 @@ Print in console.
 
 - Place a "Play" button and execute the game logic on clicking the button.
 - Print the results of both exercises on page.
+
+# Procedure
+
+1. Generate a random number from 1 to 6 for the player
+2. Generate a random number from 1 to 6 for the computer
+3. Determine the winner based on the highest score
+4. Print the result in the console

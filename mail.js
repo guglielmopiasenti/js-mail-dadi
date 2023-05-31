@@ -40,3 +40,9 @@ login.addEventListener('click', function () {
       }
 });
 
+
+
+
+
+// Dice Exercise
+
