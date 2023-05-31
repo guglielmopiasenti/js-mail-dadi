@@ -25,6 +25,14 @@ login.addEventListener('click', function () {
     // considering being logged in as false:
     let isLoggedIn = false;
 
-    
+    // `for` loop to iterate through each email in the `emailList`
+    for (let i = 0; i < emailList.length; i++) {
+        if (emailList[i] === email) {
+          isLoggedIn = true;
+          break;
+        }
+    }
+
+    // Check if the current email in the list matches the entered email.
 });
 
