@@ -44,7 +44,9 @@ Print in console.
 
 # Procedure
 
-1. Generate a random number from 1 to 6 for the player
-2. Generate a random number from 1 to 6 for the computer
-3. Determine the winner based on the highest score
-4. Print the result in the console
+1. Generate a random number from 1 to 6 for the player.
+2. Generate a random number from 1 to 6 for the computer.
+3. Determine the winner based on the highest score.
+4. Print the result in the console.
+5. Get button element with id" from DOM
+6. Create event listener
