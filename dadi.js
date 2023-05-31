@@ -15,9 +15,9 @@ playButton.addEventListener('click', function () {
     // Determine the winner based on the highest score
     let winner;
     if (player > computer) {
-        winner = player;
+        winner = "player";
     } else if (player < computer) {
-        winner = computer;
+        winner = "computer";
     } else {
         winner = "It's a tie!";
     }

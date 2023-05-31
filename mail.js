@@ -15,7 +15,6 @@ emailList = [
 // I get the button element from the DOM
 const login = document.getElementById('login');
 
-
 // Attach an event listener to the button element
 login.addEventListener('click', function () {
 
@@ -35,7 +34,11 @@ login.addEventListener('click', function () {
     // Check if the current email in the list matches the entered email.
     if (isLoggedIn) {
         console.log('Welcome!'); 
+        // Printing the result on the HTML element 
+        logIn.innerText = "Welcome!"; 
       } else {
         console.log("Sorry, you can't log in."); 
+        logIn.innerText = "Sorry, you can't log in."; 
       }
+
 });
