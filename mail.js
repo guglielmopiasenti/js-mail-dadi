@@ -48,7 +48,7 @@ login.addEventListener('click', function () {
 
 // Generate a random number from 1 to 6 for the player
 let player = Math.floor(Math.random() * 6) + 1;
-console.log(player);
+
 
 // Generate a random number from 1 to 6 for the CPU
 let computer = Math.floor(Math.random() * 6) + 1;
@@ -62,3 +62,9 @@ if (player > computer) {
 } else {
     winner = "It's a tie!";
 }
+
+
+// Print the result in the console
+console.log("Player: " + player);
+console.log("Computer: " + computer);
+console.log("Winner: " + winner);
