@@ -29,10 +29,14 @@ login.addEventListener('click', function () {
     for (let i = 0; i < emailList.length; i++) {
         if (emailList[i] === email) {
           isLoggedIn = true;
-          break;
         }
     }
 
     // Check if the current email in the list matches the entered email.
+    if (isLoggedIn) {
+        console.log('Welcome!'); 
+      } else {
+        console.log("Sorry, you can't log in."); 
+      }
 });
 
