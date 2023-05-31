@@ -16,11 +16,20 @@
 
 # Procedure
 
-1. First, we create a list of emails called email_list. This list can contain any number of email addresses.
-2. We prompt the user to enter their email address using the input() function and store the entered email in the variable user_email.
-3. Next, we use the in operator to check if the entered email (user_email) is present in the email_list.
-4. If the entered email is found in the list, we print "Welcome!" to the console, indicating that the user is granted access.
-5. If the entered email is not found in the list, we print "Access denied." to the console, indicating that the user is not granted access.
+1. Define an array `emailList` containing the allowed emails.
+2. Create an HTML input field with the id `email` to capture the user's email.
+3. Add a button with the id `login` to trigger the login process.
+4. Attach a click event listener to the login button.
+5. Inside the event listener function, retrieve the value entered in the email input field.
+6. Initialize a boolean variable `isLoggedIn` with the value `false` to track login status.
+7. Use a `for` loop to iterate through each email in the `emailList`.
+8. Check if the current email in the list matches the entered email.
+   - If a match is found, set `isLoggedIn` to `true` and exit the loop.
+   - If no match is found, continue iterating through the remaining emails.
+9. After the loop, check the value of `isLoggedIn`.
+   - If it's `true`, log the "Welcome!" message to the console.
+   - If it's `false`, log the "Sorry, you can't log in." message to the console.
+10. The login process is complete, and the appropriate message will be displayed in the console based on the entered email's presence in the `emailList`.
 
 ## Dice
 
