@@ -28,5 +28,7 @@ playButton.addEventListener('click', function () {
     console.log("Computer: " + computer);
     console.log("Winner: " + winner);
 
-
+    // Print the result in the target HTML element
+    let resultElement = document.getElementById("result");
+    resultElement.innerHTML = "Player: " + player + "<br>" + "Computer: " + computer + "<br>" + "Winner: " + winner;
 });
